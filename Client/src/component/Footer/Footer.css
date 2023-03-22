@@ -1,0 +1,58 @@
+.Foter{
+    margin-top: 80px;
+    background-color: #3b455a;
+    display: flex;
+    justify-content: space-around;
+    padding-top:25px;
+    color: white;
+    
+}
+.Foter .social a{
+    color: white;
+}
+.logos img{
+    width: 110px;
+}
+.logos li{
+   list-style: none;
+}
+.social li{
+    list-style: none;
+    padding-left: 8px;
+    padding-right: 8px;
+    /* width: 20px; */
+}
+.links ul li a{
+color:rgba(213, 213, 213, 0.6);
+text-decoration: none;
+font-size: 12px;
+
+}
+.links ul li{
+    list-style: none;
+    
+}
+.contacts ul li{
+    color: rgba(213, 213, 213, 0.6);
+    font-size: 12px;
+}
+.contacts ul li{
+    list-style: none;
+}
+.social{
+    display: flex;
+}
+h5{
+    margin-left: 35px;
+}
+@media only screen and (max-width: 991px) {
+    .Foter{
+        display: block;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .Foter {
+            margin-top: 350px;
+        }
+    }

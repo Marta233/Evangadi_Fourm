@@ -1,0 +1,45 @@
+.main{
+    margin-top: 100px;
+}
+.instraction{
+    width: 30%;
+   margin: auto;
+}
+.quastionTitle{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+    
+}
+.quastionTitle a{
+    margin-left: 50px;
+    color: black;
+    text-decoration: none;
+}
+.maincontant{
+    background: #fff;
+        box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.1);
+        width: 70%;
+        margin: auto;
+        padding: 55px;
+        padding-top: 40px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+}
+.textarea1{
+    border: 1px solid rgba(213, 213, 213, 0.6);
+    border-radius:  15px;
+}
+#places::placeholder{
+    padding-top: 10px;
+}
+#places1::placeholder{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.submitQuastion{
+    width: 30%;
+    background-color: blue;
+    color:wheat;
+  font-size: 12px;
+}

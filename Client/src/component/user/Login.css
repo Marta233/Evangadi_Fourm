@@ -1,0 +1,146 @@
+.home{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    /* width: 80%; */
+    height: 500px;
+}
+input{
+    width: 100%;
+    border: 1px solid rgba(213, 213, 213, 0.6);
+    padding: 10px;
+    /* border-color: rgba(213, 213, 213, 0.6);; */
+}
+input:focus{ 
+    /* border-color: orange; */
+    /* border-radius: 1px; */
+/* border-color:orange; */
+outline: none;
+    border-bottom: 2px solid orange;
+}
+#togglePassword{
+    margin-left: -30px; 
+    cursor: pointer;
+}
+.describtion p{
+    display: flex;
+    justify-content: center;
+}
+.describtion h4{
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+}
+.describtion {
+    margin-top: 50px;
+}
+
+.btnbtn{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.creat-link{
+    margin-top: 10px
+}
+.btn1{
+    background-color: orange;
+    width: 150px;
+    color: white;
+    border: none;
+    font-size: 12px;
+        padding: 5px 0;
+}
+.about-wraper .btn1{
+        margin-left: 15px;
+        margin-top: 15px;
+       
+}
+.creat-link{
+    display: flex;
+        justify-content: center;
+}
+.form-wraper{
+    background-color: white;
+    padding: 30px;
+    /* top: 15px; */
+    width: 40%;
+    
+    margin-right: 15px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 5, 0.1);
+}
+.about-wraper{
+    /* background-color: black; */
+    width: 40%;
+    margin-top: 70px;
+}
+.hide {
+    display: none;
+}
+
+.linksto a{
+color: goldenrod;
+font-size: 500px;
+text-decoration: none;
+
+}
+.have_account{
+    align-items: center;
+}
+.linksto:hover{
+    text-decoration:underline;
+    color: goldenrod;
+    
+    
+}
+.home a {
+    color: orange;
+    font-size: 12px;
+}
+
+h6 {
+    /* margin-right: 100px; */
+    color: orange
+}
+
+.btnbtn {
+    display: flex;
+        justify-content: center;
+
+}
+.creat-link {
+    margin-top: 10px
+}
+.inputwrap {
+    display: flex;
+}
+
+.inpts1 {
+    margin-left: 15px;
+}
+
+.inpts {
+    margin-top: 15px;
+}
+.errror{
+   color: #ff0000;
+   margin-top: 20px;
+    /* width: 70%; */
+    /* margin-top: 900px; */
+}
+@media only screen and (max-width: 700px) {
+    .home {
+           display: block;
+    
+        }.about-wraper {
+            /* background-color: black; */
+            width: 80%;
+            margin: auto;
+        }
+                .form-wraper {
+                    
+                    width: 80%;
+                    margin:auto;
+                }
+}
