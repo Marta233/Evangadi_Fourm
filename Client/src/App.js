@@ -52,6 +52,7 @@ function App() {
     //check if the user is logged in
     checkLoggedIn();
   }, []);
+  console.log(userData);
   return (
     <Router>
       <Routes>
@@ -65,7 +66,7 @@ function App() {
             </>
           }
         />
-        <Route
+        {/* <Route
           path="/Login"
           element={
             <>
@@ -74,7 +75,7 @@ function App() {
               <Footer />
             </>
           }
-        />
+        /> */}
         <Route
           path="/AskQustion"
           element={

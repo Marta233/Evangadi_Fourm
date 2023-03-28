@@ -7,7 +7,6 @@ module.exports = {
   askquastion: (req, res) => {
     const { quastionTitle, description, id } = req.body;
     console.log(req.body);
-    req.body.postId = Math.floor(Math.random() * 10000);
     if (!quastionTitle || !description || !id)
       return res
         .status(400)

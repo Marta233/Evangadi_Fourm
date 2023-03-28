@@ -45,7 +45,7 @@ function ListQuastion() {
     <div className="maincontainer">
       <div className="NameandLink">
         <p>
-          <Link to={AskQustion}>Ask Quastion</Link>
+          <Link to={"/AskQustion"}>Ask Quastion</Link>
         </p>
         <p>Wellcome:{userData.user?.display_name}</p>
       </div>

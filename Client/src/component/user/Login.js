@@ -60,9 +60,10 @@ function Login() {
       });
       //set localStorage with the token
       localStorage.setItem("auth-token", loginRes.data.token);
-      console.log(loginRes.data);
+
       //navigate user to list of quastion
       navigate("/ListQuastion");
+      console.log(loginRes.data);
     } catch (error) {
       console.log("problem", error.response.data.msg);
       setError(error?.response.data.msg);
@@ -83,14 +84,14 @@ function Login() {
     });
     //set localStorage with the token
     localStorage.setItem("auth-token", loginRes.data.token);
-    console.log(loginRes.data);
+
     //navigate user to list of quastion
     navigate("/ListQuastion");
   };
-  // useEffect(() => {
-  //   // localStorage.setItem("user", JSON.stringify(setUserData));
-  //   if (userData.user) navigate("/ListQuastion");
-  // }, [userData.user, navigate]);
+  useEffect(() => {
+    // localStorage.setItem("user", JSON.stringify(setUserData));
+    if (userData.user) navigate("/ListQuastion");
+  }, [userData.user, navigate]);
 
   const [passwordShown, setPasswordShown] = useState(false);
   const togglePassword = () => {
@@ -98,6 +99,7 @@ function Login() {
     // inverse the boolean state of passwordShown
     setPasswordShown(!passwordShown);
   };
+  console.log(userData);
   return (
     <div className="home">
       {/* signin part */}

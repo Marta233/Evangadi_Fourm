@@ -1,0 +1,6 @@
+PORT = 5000
+DB_HOST = localhost
+DB_USER = Magi
+DB_PASS = dK5[PAu[Fi_j.mE9
+MYSQL_DB = evangadi_form
+JWT_SECRET = superSecret

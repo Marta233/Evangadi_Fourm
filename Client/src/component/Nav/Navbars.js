@@ -25,7 +25,7 @@ function Navbars() {
 
   const navigate = useNavigate();
   useEffect(() => {
-    if (!userData.user) navigate("/login");
+    if (!userData.user) navigate("/");
   }, [userData.user, navigate]);
   return (
     <div id="header">
