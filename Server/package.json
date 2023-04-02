@@ -2,12 +2,12 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "Server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
 		"dev": "concurrently \"nodemon server.js\" \"npm run client\"",
 		"client": "npm start --prefix client",
-		"start": "node src/server.js"
+		"start": "node server.js"
   },
   "author": "",
   "license": "ISC",
